@@ -45,6 +45,7 @@ Relations: `Author to Book is one to many`, meaning one author can have many boo
 
 Once you're done with all your schema setup, run `npx prisma migrate dev` to migrate all your changes to the `SQlite` database.
 
+
 Make sure to setup your `seed.js` file in `prisma` directory. Add all the data you need in your seed file.
 
 #### Connect Prisma to your endpoints
